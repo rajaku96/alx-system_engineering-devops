@@ -1,2 +1,3 @@
 #!/bin/bash
-for file in *.html; do destination="../$file"; [ ! -e "$destination" ] || [ "$file" -nt "$destination" ] && cp "$file" "$destination"; done
+for file in *.html; do destination="../$file"; if [ ! -e "$destination" ] ; then cp "$file" "$destination"; elif [ "$file" -nt "$destination" ]; then cp "$file" "$destination"; fi; done
+
