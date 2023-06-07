@@ -1,2 +1,2 @@
 #!/bin/bash
-cwd=$(pwd)    echo "$cwd"
+vim -c 'echo expand("%:p:h")' -c 'qa!'
