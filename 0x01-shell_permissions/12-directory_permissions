@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod 711 {} +
+mkdir -p my_dir && chmod 751 my_dir
