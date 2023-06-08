@@ -1,2 +1,3 @@
 #!/bin/bash
-file="hello" chown :school "$file" 2>/dev/null  { read -r echo "Group owner of $file changed to 'school'." }
+# Change the group ownership of the file hello to school
+chgrp school hello
