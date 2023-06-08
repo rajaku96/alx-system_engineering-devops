@@ -1,3 +1,3 @@
 #!/bin/bash
 # Change the group ownership of the file hello to school
-chgrp school hello
+chgrp  school hello
