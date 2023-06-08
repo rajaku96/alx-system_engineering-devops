@@ -1,0 +1,2 @@
+#!/bin/bash
+file="hello" chown :school "$file" 2>/dev/null  { read -r; echo "Group owner of $file changed to 'school'." }
