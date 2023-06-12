@@ -1,2 +1,2 @@
 #!/bin/bash
-6-third_line: No such file or directory
+sed -n '3p' iacta
