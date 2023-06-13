@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..n}{b-z}
+from itertools import*;[print(*c,sep='')for c in product('abcdefghijklmnopqrstuvwxyz',repeat=2)if''.join(c)!='oo']
