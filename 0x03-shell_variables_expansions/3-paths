@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((count=$(for _ in $PATH: do count=$((count+1)): done)))
+echo $PATH | tr ':' '\n' | grep -c .
