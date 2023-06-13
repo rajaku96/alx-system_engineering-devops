@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..n}{a,!,o-z}
+echo {a..n}{b-z}
