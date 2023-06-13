@@ -1,0 +1,2 @@
+#!/bin/bash
+[[ $DIVIDE -ne 0 ]] && echo "$((POWER / DIVIDE))"
